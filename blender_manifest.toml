@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "render_auto_save"
+version = "4.0.1"
+name = "渲染自动保存"
+tagline = "F12 渲染自动编号保存：双重防覆盖、视口预览、ID Pass、批量渲染多相机"
+maintainer = "一枫"
+type = "add-on"
+
+blender_version_min = "5.0.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["Render", "Pipeline"]

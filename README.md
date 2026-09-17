@@ -1,5 +1,8 @@
 # 渲染自动保存 (Render Auto Save)
 
+
+[![Latest release](https://img.shields.io/github/v/release/wen-yifeng/render_auto_save?sort=semver)](https://github.com/wen-yifeng/render_auto_save/releases/latest) [![Downloads](https://img.shields.io/github/downloads/wen-yifeng/render_auto_save/total)](https://github.com/wen-yifeng/render_auto_save/releases)
+
 Blender 的渲染输出要自己配输出路径和文件名：忘了改就会把上一张成果覆盖掉；批量出多机位图得逐个手动改路径；想快速看效果没有顺手通道；出 ID 通道还要手动改视口着色、渲完再改回来。
 
 本插件接管 3D 视图的 `F12`：**每次渲染自动按模板编号保存，双重防覆盖**，另带视口快速预览、ID Pass 和多相机批量渲染。
@@ -35,6 +38,16 @@ Blender 的渲染输出要自己配输出路径和文件名：忘了改就会把
 - **渲染完成后自动打开文件夹**：开关
 
 ## 安装
+
+**方式一（推荐）：一键安装全部插件并自动更新**
+
+Blender → 编辑 → 偏好设置 → 获取扩展（Get Extensions）→ 右上角 ▼ → 添加远程仓库（Add Remote Repository），粘贴：
+
+```
+https://wen-yifeng.github.io/blender-extensions/index.json
+```
+
+**方式二：单独安装本插件**
 
 1. 在 [Releases](../../releases) 页面下载 `render_auto_save-x.x.x.zip`
 2. Blender → 编辑 → 偏好设置 → 获取扩展（Get Extensions）
